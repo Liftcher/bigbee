@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'github.liftcher'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+}
+
+dependencies {
+    implementation 'org.projectlombok:lombok'
+}

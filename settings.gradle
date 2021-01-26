@@ -1,0 +1,4 @@
+rootProject.name = 'bigbee'
+include 'bigbee-common'
+include 'bigbee-server'
+
